@@ -1,0 +1,70 @@
+.card-pokemon-details {
+    .go-back-button {
+        background-color: $blue;
+        padding: 10px;
+        border-radius: 30px;
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 40px;
+        }
+    }
+    .card-pokemon-details-images {
+        box-shadow: 4px 4px 4px rgba(86, 108, 214, 0.15);
+        border-radius: 16px;
+        height: 430px;
+        .body {
+            display: block;
+            text-align: center;
+            img {
+                width: 15em;
+                height: 15em;
+            }
+        }
+        .footer{
+            display: block;
+            text-align: center;
+        }
+    }
+    .card-pokemon-details-info {
+        box-shadow: 4px 4px 4px rgba(86, 108, 214, 0.15);
+        border-radius: 16px;
+        height: auto;
+        padding: 50px;
+        .header {
+            display: block;
+            h1 {
+                text-transform: capitalize;
+                width: 100%;
+                color: $text;
+            }
+            .box {
+                display: flex;
+                justify-content: left;
+                .text-box {
+                    justify-content: left;
+                    width: auto;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .body {
+            p {
+                color: $text;
+                font-size: 30px;
+            }
+            
+        }
+    }
+}
+
+@media(max-width: 540px) {
+    .searcher-box {
+        display: block !important;
+        input {
+            width: 100% !important;
+        }
+    }
+}

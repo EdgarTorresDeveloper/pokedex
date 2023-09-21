@@ -1,0 +1,42 @@
+.searcher {
+  .box {
+    // display: flex;
+    // justify-content: end;
+    // margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+    right: 40px;
+  }
+
+  input {
+    border-radius: 16px 20px 20px 16px;
+    border: 2px solid $blue;
+    padding: 5px 40px 5px 5px;
+    font-size: 14px;
+    width: 250px;
+    height: 40px;
+    margin-right: 30px;
+    // box-shadow: 10px 10px 10px rgba(86, 108, 214, 0.5);
+  }
+  button {
+    position: absolute;
+    // margin-left: 170px;
+    right: 20px;
+    border-radius: 26px;
+    width: auto;
+    height: 40px;
+    padding: 0px;
+    border: 0px;
+    background-color: $blue;
+    cursor: pointer;
+    img {
+      border-radius: 16px;
+      width: 45px;
+      height: 40px;
+      padding: 10px;
+    }
+  }
+  button:hover {
+    background-color: $blue-light;
+  }
+}
